@@ -31,3 +31,9 @@ Denver seeks feedback and comments on technical specifications for two of the te
 
 ### Process for commenting
 
+Please use one of the two following methods for providing feedback on these technology specifications:
+
+1. Submit a pull request with direct changes in either specification. Please utilize commit comments to provide context for your recommended edits.
+1. Submit a ticket for broader recommendations, or non-specific edits.
+
+Denver will review pull requests to ensure that edits don't favor a specific vendor or technology. If the first version of our specifications inadvertedly closes off solutions you believe we should be considering, please create a ticket to note that for us.
