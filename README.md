@@ -26,8 +26,8 @@ ATCMTD serves as the leading-edge transportation technology deployment grant for
 
 Denver seeks feedback and comments on technical specifications for two of the technologies being deployed by the Connected Pedestrian project: Automated Pedestrian Detection and Advance Warning Signs.
 
-* Automated Pedestrian Detection _(link)_
-* Advance Warning Sign _(link)_
+*  [Automated Pedestrian Detection](/PedDetection.md) 
+*  [Advance Warning Sign](/AdvanceWarningSign.md)
 
 ### Process for commenting
 
