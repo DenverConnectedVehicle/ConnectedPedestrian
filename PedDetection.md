@@ -4,6 +4,16 @@
 ### City and County of Denver, Colorado
 
 ---
+#### Contents
+* [General](PedDetection.md#General)
+* [Detection Requirements](PedDetection.md#Detection-Requirements)
+* [System Considerations](PedDetection.md#System-Considerations)
+* [Electrical Requirements](PedDetection.md#Electrical-Requirements)
+* [Mechanical Requirements](PedDetection.md#Mechanical-Requirements)
+* [Maintenance Considerations](PedDetection.md#Maintenance-Considerations)
+* [Documentation, Training, and Technical Support](PedDetection.md#Documentation,-Training,-and-Technical-Support)
+
+---
 
 #### General
 1. Summary  
