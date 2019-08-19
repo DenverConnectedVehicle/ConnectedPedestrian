@@ -10,7 +10,7 @@ In 2018, the City and County of Denver (CCD) kicked off the Advanced Transportat
 
 ATCMTD funds cutting-edge transportation technologies to reduce congestion and improve the safety of our transportation system. This is a four-year, $12M effort. Denver is testing and demonstrating connected vehicle (CV) and infrastructure technology for improvements to congestion and safety for Denver residents and businesses.
 
-The ATCMTD program is comprised of three projects: Connected Freight, Connected TMC and Fleet, and Connected Pedestrian. The program as a whole, as well as the projects underneath it, are designed to test the feasibility and value of using new technology to reduce congestion and improve safety. The tests will involve relatively constrained deployments and are unlikely to be felt by an average member of the public on the street. Instead, the aim of the project is to demonstrate the impact of the technology at a systems-level and build out the corresponding technology infrastructure necessary for the City to scale after the program concludes. 
+The ATCMTD program is comprised of three projects: Connected Freight, Connected TMC and Fleet, and Connected Pedestrian. The program as a whole, as well as the projects underneath it, are designed to test the feasibility and value of using new technology to reduce congestion and improve safety. The aim of the project is to demonstrate the impact of the technology at a systems-level and build out the corresponding technology infrastructure necessary for the City to scale after the program concludes. 
 
 ### Vision Statement
 
@@ -20,7 +20,15 @@ The goal of this project is to provide individuals accessing our city system of 
 
 _Rendering of a future connected pedestrian system_
 
-ATCMTD serves as the leading-edge transportation technology deployment grant for Denver. Many other Intelligent Transportation System (ITS) and public works projects are looking to this program to identify viable pedestrian detection and advance warning signs that meet a broader set of city needs. Technologies that meet Denver's needs here have the potential to scale across many city projects and programs.
+ATCMTD serves as the leading-edge transportation technology deployment grant for Denver. Many other Intelligent Transportation System (ITS) and public works projects are looking to this program to identify viable pedestrian detection and advance warning signs that meet a broader set of city needs. Technologies that meet Denver's needs here have the potential to scale across many city projects and programs. Additional funding is being sought to expand this deployment.
+
+The initial deployment locations will be at four HAWK crossings:
+* East 29th Ave and Gelena Street
+* Martin Luther King Jr. Blvd and Gelena Street
+* Morrison Road and Raleigh Street
+* Green Valley Ranch Blvd and Walden Street
+
+<img width="563" alt="Deployment Locations" src="https://github.com/DenverConnectedVehicle/ConnectedPedestrian/blob/master/ConnectedPedLocations.png">
 
 ## Requests for Comment and Information
 
