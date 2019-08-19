@@ -33,13 +33,20 @@ This specification is for either a thermal imaging detection system or a video d
         6. Heater or similar protection to prevent the accumulation of frost, ice, and snow on the sensor side of the pedestrian detection system; pedestrian detection system manufacturer to elaborate on how it addresses this requirement so that detection of pedestrians is not obscured.
     1. Hazardous Substances: Compliance with Reduction of Hazardous Substances (RoHS) Directive 2011/65/EU.
     1. Dedicated Short Range Communications (DSRC):  If applicable, the pedestrian detection system manufacturer shall indicate if it complies with the standards listed below and what Roadside Unit (RSU)/Onboard Unit (OBU) manufacturers they are currently compatible with based on actual field testing or implementation.  Manufacturer shall also describe if additional licensing is required to support DSRC and any corresponding costs.
-        1. IEEE 802.11p
-        1. IEEE 1609.3 WAVE Wave Short Message Protocol (WSMP)
-        1. SAE J2735
-           1. Basic Safety Message (BSM)
-           1. Map Data (MAP)
-           1. Personal Safety Message (PSM)
-           1. Signal Phase and Timing (SPaT)
+        1. Compliance with FCC Part 90 (for OBU) or Part 95 (for RSU)
+        1. IEEE 1609.12-2016 - WAVE Identifier Allocations
+        1. IEEE 1609.3-2016 - WAVE Wave Short Message Protocol (WSMP)
+        1. IEEE 1609.2-2016 - WAVE Security Services for Applications and Management Messages
+        1. SAE J2735-2016
+            1. Basic Safety Message (BSM)
+            1. Map Data (MAP)
+            1. Personal Safety Message (PSM)
+            1. Signal Phase and Timing (SPaT)
+        1. SAE J2945/1_201603 On-Board System Requirements for V2V Safety Communications
+        1. SAE J2945/9 - Vulnerable Road User Safety Message Minimum Performance Requirements
+        1. Use of 1609.2 security credentials issued by Security Credential Management System (SCMS) providers
+        1. Device must be certified by [OmniAir](https://omniair.org/certified-products/)  or demonstrate compliance to the interoperability test specifications by the Certification Operating Council [on github](https://github.com/certificationoperatingcouncil/COC_TestSpecs) 
+        1. USDOT RSU 4.1 Revision to Dedicated Short-Range Communication Roadside Equipment Specification - [link](https://rosap.ntl.bts.gov/view/dot/3621/dot_3621_DS1.pdf)
     1. Open Standards:
        1. Open Network Video Interface Forum (ONVIF) conformance, as applicable for pedestrian detection systems that utilize video.  Pedestrian detection system manufacturer to describe which profile(s) it conforms to.
        1. Open Source Software (OSS) conformance that allows inspection, modification, and enhancement of source code in accordance with the corresponding OSS license.  Pedestrian detection system manufacturer shall describe how it conforms to OSS or if it utilizes a proprietary software.  If a proprietary software is utilized, please describe the terms of the license and the corresponding cost structure, if any.

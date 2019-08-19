@@ -50,16 +50,26 @@ This specification is for either a blank out sign or a dynamic message sign (hen
    1. National Fire Protection Association (NFPA) 70, National Electric Code (NEC), 2017 Edition, Article 600 Electric Signs and Outline Lighting and other applicable NEC requirements, including the 2016 Amendments to the Building and Fire Code for the City and County of Denver
 1. Electromagnetic Compatibility: Applicable portions of FCC 47 CFR Part 15, Subpart B; AWS manufacturer to describe further in its response.
 1. DSRC: The AWS manufacturer shall indicate if it complies with the standards listed below and what Roadside Units (RSU)/Onboard Unit (OBU) manufacturers they are currently compatible with based on actual field testing or implementation.  Manufacturer shall also describe if additional licensing is required to utilize DSRC and any corresponding costs.
+   1. Compliance with FCC Part 90 (for OBU) or Part 95 (for RSU)
    1. IEEE 802.11p
-   1. IEEE 1609.3 WAVE Wave Short Message Protocol (WSMP)
-   1. SAE J2735
+   1. IEEE 1609.12-2016 - WAVE Identifier Allocations
+   1. IEEE 1609.3-2016 - WAVE Wave Short Message Protocol (WSMP)
+   1. IEEE 1609.2-2016 - WAVE Security Services for Applications and Management Messages
+   1. SAE J2735-2016
       1. Basic Safety Message (BSM)
       1. Map Data (MAP)
       1. Personal Safety Message (PSM)
       1. Signal Phase and Timing (SPaT)
+   1. SAE J2945/1_201603 On-Board System Requirements for V2V Safety Communications
+   1. SAE J2945/9 - Vulnerable Road User Safety Message Minimum Performance Requirements
+   1. Use of 1609.2 security credentials issued by Security Credential Management System (SCMS) providers
+   1. Device must be certified by [OmniAir](https://omniair.org/certified-products/)  or demonstrate compliance to the interoperability test specifications by the Certification Operating Council [on github](https://github.com/certificationoperatingcouncil/COC_TestSpecs) 
+   1. USDOT RSU 4.1 Revision to Dedicated Short-Range Communication Roadside Equipment Specification - [link](https://rosap.ntl.bts.gov/view/dot/3621/dot_3621_DS1.pdf)
+   
 1. ITS Standards: National Transportation Communications for ITS Protocol (NTCIP)
    1. NTCIP 1201 v03, Global Object (GO) Definitions (March 2011)
    1. NTCIP 1203 v03, Object Definitions for Dynamic Message Signs (DMS) (September 2014)
+
 
 #### Warranty  
 The AWS manufacturer’s warranty shall cover a minimum of two years for replacement or repair of defective equipment.  The manufacturer shall describe if it meets or exceeds this requirement, if there are additional tiers of warranties that are available for purchase (and price), and if there are separate warranties for various components of its AWS.
