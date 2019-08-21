@@ -160,7 +160,7 @@ If cabinets are required to house AWS-related equipment, they shall conform to t
        1. The AWS manufacturer shall describe how photocells will be implemented on the AWS for nighttime conditions and sun position to adjust brightness.  A minimum of two photocells should be provided to operate in a redundant manner should one photocell fail.  The remaining photocell shall continue to adjust the LED light intensity to a level that creates a legible graphic on the sign display.  The LED automatic dimming capability shall continue normally with only one photocell operational.
     1. Power Requirements
        1. The AWS manufacturer shall describe the operating voltage of its sign based on the solar or utility power option it needs to use.  The manufacturer shall also provide information on the use of transformers, converters, and inverters expected to be employed with the sign.  The thermal classes, per NEMA or UL, shall be provided for applicable electrical components for temperature and temperature rise.
-       1. CCD will provide a UPS for power conditioning and backup power at the AWS only if the location utilizes utility power.
+       1. CCD will provide a UPS for power conditioning and backup power at the AWS only if the location utilizes utility power. In this case, the supply cabinet shall be large enough for an APC UPS 1400, four batteries, and a bypass switch.
 
 #### Certifications  
 Certification shall be provided to confirm that the environmental requirements of the AWS are met.  This certification can be from the AWS manufacturer for in-house testing following accepted testing procedures or through a 3rd party testing organization.  Certifications shall also be provided, as applicable, for AmWS, NEMA, and UL requirements.
