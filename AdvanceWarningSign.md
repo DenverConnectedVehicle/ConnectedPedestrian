@@ -28,7 +28,7 @@ This specification is for either a blank out sign or a dynamic message sign (hen
    1. To demonstrate the use of Dedicated Short Range Communications (DSRC) to transport notifications and acknowledgements between the PHB location, where the pedestrian detection system is deployed, and two AWS locations on each approach to the PHB.  Notifications shall be used to activate and deactivate the display on the AWS, while acknowledgements shall be confirmations from the AWS that the message display is activated and deactivated.  
 
 #### Quality Assurance
-1. The manufacturer of the AWS shall possess valid ISO 9001 certification for its Quality Management System.
+1. The manufacturer of the AWS shall possess valid ISO 9001 certification, or equivalent standard, for its Quality Management System.
 
 #### Applicable Codes and Standards
 1. Sign Display Size, Color, and Graphic/Message Content: Federal Highway Administration (FHWA) Manual on Uniform Traffic Control Devices (MUTCD) with Revision Numbers 1 and 2 incorporated (May 2012)
@@ -43,7 +43,7 @@ This specification is for either a blank out sign or a dynamic message sign (hen
    1. Applicable load designs (e.g., live, snow, wind, seismic, etc.) shall conform to the International Code Council (ICC) 2015 International Building Code (IBC) and 2016 Amendments to the Building and Fire Code for the City and County of Denver, as appropriate
    1. Applicable American Welding Society (AmWS) requirements, standards, and certifications
    1. The AWS manufacturer shall describe the Ingress Protection rating of the sign.
-1. AWS Mounting: CCD plans to install the AWS at a standard sign height of seven feet using their standard pedestal pole details (refer to Pedestal Pole Details in PWES-009.1 CCD Traffic Signal, Signs and Pavement Marking Standards, dated March 2019, which can be found at https://www.denvergov.org/content/denvergov/en/denver-department-of-public-works/documents/standards-details-manuals.html).  The AWS manufacturer shall advise CCD if the pedestal pole and corresponding foundation is acceptable for mounting of the AWS.  Any redesign shall conform to the AASHTO Standard Specifications for Structural Supports for Highway Signs, Luminaires, and Traffic Signals (6th Edition with 2019 interim revisions) and other applicable design standards.  The AWS manufacturer shall also provide a mounting detail for mounting its AWS to CCD’s standard pedestal pole or modified pedestal pole design.
+1. AWS Mounting: CCD plans to install the AWS at a standard sign height of seven feet using their standard pedestal pole details (refer to Pedestal Pole Details in PWES-009.1 CCD Traffic Signal, Signs and Pavement Marking Standards, dated March 2019, which can be found at https://www.denvergov.org/content/denvergov/en/denver-department-of-public-works/documents/standards-details-manuals.html).
 1. AWS Housing Finish and Sign Face: Applicable American Society for Testing and Materials (ASTM) requirements and standards
 1. AWS Electrical Wiring, Power, and Power Distribution:
    1. Underwriters Laboratories (UL) 48 Standard for Electric Signs (2018) and other applicable UL standards
@@ -119,7 +119,7 @@ If cabinets are required to house AWS-related equipment, they shall conform to t
        1. All doors and removable parts shall use neoprene or silicone gaskets between it and the housing to form a weatherproof seal.
        1. The AWS shall provide safe and convenient front service access for all modular assemblies, components, wiring, and other materials located within the housing.  All internal components shall be removable and replaceable by a single technician with basic hand tools.  A locking mechanism to support the access door or sign face while technicians work on the sign must be provided.
        1. The face of the AWS shall be flat black to maximize contrast and legibility of the LEDs when the sign is active.
-       1. The face of the AWS shall be protected by a clear polycarbonate face with UV inhibitors; visors shall be provided as required.
+       1. If the AWS utilizes LEDs, the enclosure must comply with the NEMA 3R standard.
        1. Screened drain hole(s) shall be provided to remove condensation build up in the sign, but prevent the ingress of insects and rodents.
        1. Exterior finish on the sign shall be enamel or powder coat with the appropriate surface preparation needed for the finish to bond properly.
        1. If lifting hardware is needed to assist with AWS mounting, lifting eyebolts shall be galvanized or stainless steel mounted to the top of the sign.  The eyebolts shall attach directly to the housing’s frame and be installed at the factory during the fabrication process.  It shall be sealed to prevent water from entering the housing and be protected from damaging the sign during shipment.
@@ -157,7 +157,7 @@ If cabinets are required to house AWS-related equipment, they shall conform to t
     1. The AWS housing shall have at least one earth ground lug that is electrically bonded to the housing.  All earth grounding shall conform to Article 250 of the NEC and resistance values for ground shall be per the NEC unless otherwise specified by the AWS manufacturer.
     1. The AWS shall be UL Listed for wet locations.
     1. LED Display Requirements
-       1. The AWS manufacturer shall describe how photocells will be implemented on the AWS for nighttime conditions and sun position to adjust brightness.  A minimum of two photocells should be provided to operate in a redundant manner should one photocell fail.  The remaining photocell shall continue to adjust the LED light intensity to a level that creates a legible graphic on the sign display.  The LED automatic dimming capability shall continue normally with only one photocell operational.
+       1. The AWS manufacturer shall describe how photocells will be implemented on the AWS for nighttime conditions and sun position to adjust brightness. The LED shall be able to dim for nighttime conditions.
     1. Power Requirements
        1. The AWS manufacturer shall describe the operating voltage of its sign based on the solar or utility power option it needs to use.  The manufacturer shall also provide information on the use of transformers, converters, and inverters expected to be employed with the sign.  The thermal classes, per NEMA or UL, shall be provided for applicable electrical components for temperature and temperature rise.
        1. CCD will provide a UPS for power conditioning and backup power at the AWS only if the location utilizes utility power. In this case, the supply cabinet shall be large enough for an APC UPS 1400, four batteries, and a bypass switch.
