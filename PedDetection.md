@@ -1,7 +1,27 @@
-# Specification for Pedestrian Detection at Mid-Block Pedestrian Crossings
+# Request for Proposal (RFP): Pedestrian Detection at Mid-Block Pedestrian Crossings
 ## Advanced Transportation Congestion Management Technology Deployment (ATCMTD)
 ### Department of Public Works
 ### City and County of Denver, Colorado
+### 
+
+Denver is seeking to purchase the Automated Pedestrian Detection devices to enable the Connected Pedestrian project. The purchase will cover the four pedestrian crossings locations associated with the ATCMTD grant.
+
+This procurement is for either a thermal imaging detection system or a video detection system (henceforth referenced as pedestrian detection system) that will be utilized at existing Pedestrian Hybrid Beacon (PHB) locations in the City and County of Denver (CCD) to determine the presence of pedestrians in the crosswalk.  The purpose of utilizing the pedestrian detection system at PHB locations are as follows:
+   1. To extend the alternating flashing red indication (wig-wag) of the PHB if pedestrian activity is still detected in the crosswalk, and
+   1. To activate an Advance Warning Sign (AWS), typically a W11-2 displayed on either a blankout color LED sign or a full matrix color LED Dynamic Message Sign (DMS), for both directions of travel at each PHB location.  Each AWS will remain activated as long as a pedestrian is detected in the crosswalk no matter the state of the PHB beacon.  
+
+Below are the questions Denver seeks in addition to technical proposals, as well as the requirements on technologies proposed to Denver.
+
+## Questions for Vendors
+In your firm's response to this RFP, please include responses to the following questions.
+
+1. Does your device include any dedicated short-range communications (DSRC) radio technology in addition to its detection functionality?
+
+1. Please provide information about methods of remotely updating Firmware in a secure manner. Does your solution support failsafe firmware updates? Can OS updates be applied independently of application updates?
+
+1. Please list device's supported services and protocols, including as applicable:  Address Resolution Protocol (ARP), Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), File Transfer Protocol (FTP), HyperText Transfer Protocol (HTTP), HyperText Transfer Protocol Secure (HTTPS), Internet Control Message Protocol (ICMP), Internet Group Management Protocol (IGMP), Internet Protocol version 4 (IPv4), Network Time Protocol (NTP), RTP Control Protocol (RTCP), Secure Copy Protocol (SCP), Secure Shell (SSH), Transmission Control Protocol (TCP), Universal Plug and Play (UPnP), and User Datagram Protocol (UDP), National Transportation Communications for Intelligent Transportation (NTCIP), Simple Network Management Protocol (SNMP), and Message Queuing Telemetry Transport (MQTT). 
+
+## Requirements for Pedestrian Detection at Mid-Block Pedestrian Crossings
 
 ---
 #### Contents
@@ -16,10 +36,6 @@
 ---
 
 #### General
-1. Summary  
-This specification is for either a thermal imaging detection system or a video detection system (henceforth referenced as pedestrian detection system) that will be utilized at existing Pedestrian Hybrid Beacon (PHB) locations in the City and County of Denver (CCD) to determine the presence of pedestrians in the crosswalk.  The purpose of utilizing the pedestrian detection system at PHB locations are as follows:
-   1. To extend the alternating flashing red indication (wig-wag) of the PHB if pedestrian activity is still detected in the crosswalk, and
-   1. To activate an Advance Warning Sign (AWS), typically a W11-2 displayed on either a blankout color LED sign or a full matrix color LED Dynamic Message Sign (DMS), for both directions of travel at each PHB location.  Each AWS will remain activated as long as a pedestrian is detected in the crosswalk no matter the state of the PHB beacon.   
 1. Quality Assurance
    1. The manufacturer of the pedestrian detection system shall possess valid ISO 9001 certification for its Quality Management Systems.
 1.	Applicable Codes and Standards
@@ -32,7 +48,7 @@ This specification is for either a thermal imaging detection system or a video d
         5. Shock and vibration in accordance with NEMA TS 2 (2016) requirements or better.
         6. Heater or similar protection to prevent the accumulation of frost, ice, and snow on the sensor side of the pedestrian detection system; pedestrian detection system manufacturer to elaborate on how it addresses this requirement so that detection of pedestrians is not obscured.
     1. Hazardous Substances: Compliance with Reduction of Hazardous Substances (RoHS) Directive 2011/65/EU.
-    1. Dedicated Short Range Communications (DSRC):  If applicable, the pedestrian detection system manufacturer shall indicate if it complies with the standards listed below and what Roadside Unit (RSU)/Onboard Unit (OBU) manufacturers they are currently compatible with based on actual field testing or implementation.  Manufacturer shall also describe if additional licensing is required to support DSRC and any corresponding costs.
+    1. Dedicated Short Range Communications (DSRC):  *If applicable*, the pedestrian detection system manufacturer shall indicate if it complies with the standards listed below and what Roadside Unit (RSU)/Onboard Unit (OBU) manufacturers they are currently compatible with based on actual field testing or implementation.  Manufacturer shall also describe if additional licensing is required to support DSRC and any corresponding costs.
         1. Compliance with FCC Part 90 (for OBU) or Part 95 (for RSU)
         1. IEEE 1609.12-2016 - WAVE Identifier Allocations
         1. IEEE 1609.3-2016 - WAVE Wave Short Message Protocol (WSMP)
@@ -45,11 +61,11 @@ This specification is for either a thermal imaging detection system or a video d
         1. SAE J2945/1_201603 On-Board System Requirements for V2V Safety Communications
         1. SAE J2945/9 - Vulnerable Road User Safety Message Minimum Performance Requirements
         1. Use of 1609.2 security credentials issued by Security Credential Management System (SCMS) providers
-        1. Device must be certified by [OmniAir](https://omniair.org/certified-products/)  or demonstrate compliance to the interoperability test specifications by the Certification Operating Council [on github](https://github.com/certificationoperatingcouncil/COC_TestSpecs) 
+        1. Device must be certified by [OmniAir](https://omniair.org/certified-products/)  or be in the process of receiving certification.
         1. USDOT RSU 4.1 Revision to Dedicated Short-Range Communication Roadside Equipment Specification - [link](https://rosap.ntl.bts.gov/view/dot/3621/dot_3621_DS1.pdf)
     1. Open Standards:
-       1. Open Network Video Interface Forum (ONVIF) conformance, as applicable for pedestrian detection systems that utilize video.  Pedestrian detection system manufacturer to describe which profile(s) it conforms to.
-       1. Open Source Software (OSS) conformance that allows inspection, modification, and enhancement of source code in accordance with the corresponding OSS license.  Pedestrian detection system manufacturer shall describe how it conforms to OSS or if it utilizes a proprietary software.  If a proprietary software is utilized, please describe the terms of the license and the corresponding cost structure, if any.
+       1. Open Network Video Interface Forum (ONVIF) conformance, as applicable for pedestrian detection systems that utilize video. Pedestrian detection system manufacturer to describe which profile(s) it conforms to.
+       1. Open Source Software (OSS) conformance that allows inspection, modification, and enhancement of source code in accordance with the corresponding OSS license. Pedestrian detection system manufacturer shall describe how it conforms to OSS or if it utilizes a proprietary software. If a proprietary software is utilized, please describe the terms of the license and the corresponding cost structure, if any.
        1. Application Programming Interface (API) support; pedestrian detection system manufacturer shall describe the type of API (e.g., web-based, operating system, etc.), its corresponding specifications, and if there is an additional fee for use of the API.
 1. Warranty: The pedestrian detection system manufacturer’s warranty shall cover three years for replacement or repair of defective equipment.  The pedestrian detection system manufacturer shall describe if it meets or exceeds this requirement, additional tiers of warranty that are available for purchase (and price), and if there are separate warranties for various components of its pedestrian detection system.
 
@@ -68,7 +84,6 @@ The pedestrian detection system shall be capable of detecting the presence of pe
 
 #### System Considerations
 1. Firmware/Software:  The pedestrian detection system manufacturer shall indicate what methods are available to securely update field side firmware.  The manufacturer shall also describe if any central software is provided or available for a fee to perform remote management and configuration of deployed detectors.  If a central software is available, please provide the candidate OS needed to support the software and the minimum system configuration requirements (e.g., processor, RAM, primary storage, etc.).  If it is a web-based system, please provide the browsers that are supported.  
-   1. Please provide information about methods of remotely updating Firmware in a secure manner. Does your solution support failsafe firmware updates? Can OS updates be applied independently of application updates?
 
 1. Video Outputs:  The pedestrian detection system manufacturer shall indicate what items it supports and does not support from the list below.  The manufacturer is invited to also list items it supports that are not listed below that could be beneficial for CCD.
    1. Digital:  H.264/H.265
@@ -76,7 +91,6 @@ The pedestrian detection system shall be capable of detecting the presence of pe
    1. Video:  Real-time Transport Protocol (RTP)/Real Time Streaming Protocol (RTSP), unicast/multicast
    1. Display:  For video, the pedestrian detection system manufacturer shall describe the number of colors its system can support for output displays.  For thermal, the manufacturer shall describe how warmer objects will be displayed with cooler objects and the number of colors available in its color palette.
    1. Interface:  Ethernet, RJ-45 (8P8C connector, T568B pinout), minimum 10/100 Mbps
-   1. Please list device's supported services and protocols, including as applicable:  Address Resolution Protocol (ARP), Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), File Transfer Protocol (FTP), HyperText Transfer Protocol (HTTP), HyperText Transfer Protocol Secure (HTTPS), Internet Control Message Protocol (ICMP), Internet Group Management Protocol (IGMP), Internet Protocol version 4 (IPv4), Network Time Protocol (NTP), RTP Control Protocol (RTCP), Secure Copy Protocol (SCP), Secure Shell (SSH), Transmission Control Protocol (TCP), Universal Plug and Play (UPnP), and User Datagram Protocol (UDP), National Transportation Communications for Intelligent Transportation (NTCIP), Simple Network Management Protocol (SNMP), and Message Queuing Telemetry Transport (MQTT). 
    1. Security:  The pedestrian detection system manufacturer shall describe what items it can and can’t provide based on the list below.  Additional security considerations provided by the manufacturer that are not listed below are welcome to be described further.
       1. IEEE 802.1X Port-based Network Access Control (PNAC) for authentication to connect to CCD’s communications network.
       1. User login for access to the pedestrian detection system with a username and password and the ability to remind users that their password is expiring based on a user-selectable period from 1 to 12 months.
